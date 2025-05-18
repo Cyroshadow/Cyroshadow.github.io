@@ -1,4 +1,33 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url(Fonts/Jost-VariableFont_wght.ttf);
+}
+
+h2 {
+    font-family: "Montserrat";
+}
+
+#name {
+    font-family: "Montserrat","san-serif";
+    font-size: 35px;
+    font-weight: 750;
+}
+
+#potato {
+    font-family: "Montserrat","san-serif";
+    font-size: 50px;
+    font-weight: 750;
+}
+
+.navBar {
+    font-family: "Jost", "sans-serif";
+}
+
 body {
-    color:var(--black)
-    
+    font-family: "Jost";
 }
