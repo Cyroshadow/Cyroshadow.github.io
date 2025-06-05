@@ -7,7 +7,9 @@
     font-family: "Jost";
     src: url(Fonts/Jost-VariableFont_wght.ttf);
 }
-
+* {
+    box-sizing: border-box;
+}
 h2 {
     font-family: "Montserrat";
 }
@@ -19,15 +21,35 @@ h2 {
 }
 
 #potato {
+    display: grid;
     font-family: "Montserrat","san-serif";
     font-size: 50px;
     font-weight: 750;
+    grid-column: 2 / 3;
 }
 
 .navBar {
+    display: grid;
     font-family: "Jost", "sans-serif";
+    grid-template-columns: auto auto auto auto;
 }
 
 body {
     font-family: "Jost";
+    display: grid;
+    grid-template-columns: auto 10%;
+}
+
+header {
+    display: grid;
+    grid-column: 1/3;
+    background-color:#f1f1f1;
+    border-radius: 25px;
+    padding: 2.5%;
+    border: black;
+}
+
+aside {
+    display: grid;
+    grid-column: 1;
 }
